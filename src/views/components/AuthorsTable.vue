@@ -70,7 +70,8 @@ const sortOrder = ref('asc'); // 초기 정렬 순서
 
 onMounted(async () => {
   try {
-    const response = await fetch("https://hris-json-server.fly.dev/employees");
+    // fly io // https://hris-json-server.fly.dev/attendancetime
+    const response = await fetch("http://localhost:3000/employees");
     employees.value = await response.json();
 
     // 초기에 필터된 목록은 전체 목록으로 설정합니다.

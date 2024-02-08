@@ -64,7 +64,8 @@
 
 	onMounted(async () => {
 		try {
-			const response = await fetch("https://hris-json-server.fly.dev/attendancetime");
+			// https://hris-json-server.fly.dev/attendancetime
+			const response = await fetch("http://localhost:3000/attendancetime");
 			attendancetimes.value = await response.json();
 
 			// 오늘의 연차자 수 계산
