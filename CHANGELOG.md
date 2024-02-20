@@ -29,3 +29,7 @@
 ## [1.0.0] - 2019-04-07
 
 ### Initial Release
+
+### [ 0.1.0]
+
+- [ ] https://v2.vuejs.org/v2/cookbook/dockerize-vuejs-app
